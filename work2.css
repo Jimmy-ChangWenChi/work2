@@ -1,0 +1,132 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*{
+    outline:1px solid black;
+}
+body{
+    font-family: "PingFang", serif;
+}
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+    /*
+    background: green;
+    */
+    padding: 30px 42px 0px 42px;
+}
+
+.header{
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:35px ;
+}
+.header .LogoImg{
+    width: 200px;
+}
+.navbar{
+    width:302px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.navbar a{
+    width: 32px;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    color: #3F5D45;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.banner{
+    width:940px;
+    margin-bottom: 60px;
+    display: block;
+}
+
+.container{
+    width: 940px;
+    display:flex;
+
+}
+.sidebar{
+    width: 300px;
+    margin-right:20px;
+    text-align: center;
+    font-size: 33px;
+}
+.sidebar h2{
+    background: #3F5D45;
+    color: #EAF0ED;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.sidebar li a{
+    display: block;
+    background: #EAF0ED;
+    text-decoration: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    color: #3F5D45;
+}
+.productList{
+    width:620px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+.productList li{
+    background:green;
+    height: 434px;
+    width: 300px;
+}
+
